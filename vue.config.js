@@ -1,4 +1,5 @@
 module.exports = {
+	productionSourceMap: false,
 	transpileDependencies: ["vuetify"],
 	chainWebpack: config => {
 		config.plugin("define").tap(args => {
